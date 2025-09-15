@@ -1,6 +1,132 @@
-h1{color: red;} 
+/* h1{color: red;} 
 .loder{width: 100px; height: 100px; border:5px solid red; border-radius: 50%;
      border-top:5px solid gray ; animation: rotate 1s infinite;}
      @keyframes rotate{
         100%{rotate: 360deg;}
-     }
+     } */
+
+/* utalty class */
+.btn{padding: 1rem; border-radius: 30%; color: white;
+background-color: lightseagreen; text-transform: uppercase;
+text-decoration: none; transition: all 1s ease-in-out;}
+
+.btn:hover{background-color: antiquewhite;}
+.btn1{padding: 1rem; border-radius: 30%;color: lightseagreen;background-color: azure;
+text-transform: uppercase;}
+ 
+
+
+
+.contener{max-width: 1200px ; width: 1000px; margin: auto;}
+
+
+
+    .header1{background-color: lightblue; height: 100vh;}
+
+
+      .head1{padding: 3rem;}
+      .head1{position: relative;} 
+      .head1 .pra1{position: absolute; top: 110px ;left: 60px;}
+      .head1 h1{text-transform: uppercase; font-size: 3rem ; color: #fff;}
+      .pra1 p{text-transform: uppercase; font-size: 1rem; color: #fff;}
+      .flex{display: flex; justify-content: space-around;}
+
+
+.time{position: relative; padding-top: 3.5rem; color: #fff;}
+.time1{position: absolute; top: 120px ;left: 50%;font-size: 20.5px;}
+
+
+.number{position: relative; color: #fff;}
+.pra2{position: absolute; top: 100px; left: 100px;}
+.number h1{padding: 3.5rem;}
+
+
+/* sssssssssssssssssssss navbar aaaaaaaaaaaaaaaa */
+
+.listitem{display: flex; list-style: none;
+   padding: 10px; ;
+    width: 800px;}
+.item{ padding-left:6rem; font-weight: 750;}
+.item a{color: #fff; list-style: none;
+   outline: none; text-decoration: none;
+ transition-property: all ; transition-duration: 1s; transition-timing-function: ease-in-out;}
+
+ .item a:hover{color: green;}
+
+
+
+
+
+.listitem{position: relative;}
+/* .item{position: absolute; top: 15px ; left: 100px;} */
+/* .navbar{display: flex;} */
+.head3{float: right; ;border:2px  solid #444;
+    padding: 5px; margin-bottom: 100px;}
+
+.navbar{position: relative; }
+.head3{position: absolute; top: -20px;left: 810px;
+    padding: 5px; border-radius: 20%; }
+.listitem{background: #e2e0e0e1}
+.head3{background: rgb(133, 83, 83);}
+
+
+
+/* hhhhhhhhhhhhhhhhhhhhhhhhh style for text and photo hhhhhhhhhhhhhhh */
+.flex1{display: flex; }
+.text{width: 50%;}
+.text h2 ,h6{padding:5px ;}
+.text p{padding: 5px}
+.img{width: 50%;}
+.img img{width: 100%; height: 300px; box-sizing: 
+   border-box; } 
+
+
+
+/* nnnnnnnnnnnnnnnnnnnnnnnnn secont section class name bgcolor nnnnnnnnnnnnnn */
+.bgcolor{display: flex;background-color: #fff; height: 70vh;}
+.img3{width: 50%;}
+.text3{width: 50%;}
+
+.img3 img{width: 100%; height: 500px;}
+
+.head4{padding-left:  50px; color: lightseagreen;}
+.head5{padding-left:  50px; color: #333; margin-bottom: 10px;}
+
+.book{padding-left: 50px;  background: rgb(241, 240, 240); width: 500px;}
+.bgcolor{box-shadow: 0,0,0,0,0;}
+
+
+
+
+/* heightbbbbbbbbbbbbbbbbbbbbbb onlytext section code ok bbbbbbbbbbbbbbbbb */
+.onlytext{height: 60vh; display: flex; background: #fff3ff; }
+
+.text6{width: 40%;}
+.text7{width:60% ;}
+ 
+.text6 h1{border-bottom: 2px solid #444; width: 300px;}
+.text7 h1{border-bottom: 2px solid #444; width: 300px;}
+
+.span{font-weight: 800; font-size: 1.5rem;}
+.span{margin-top: 20px; display: inline-block}
+
+/* #################################### SHOWCASE STYLE NNNNNNNNNNNNNNN */
+
+.showcase{height: 30vh; background:  url(/image/sudais.jpg.jpg); object-fit: cover; object-position: center;
+; display: flex;text-align: center; ; color: #fff; ;}
+ 
+.span1{margin: auto; font-size: 20px;}
+
+
+
+/* llllllllllllllll  section class main style llllllllllllllll */
+
+.main{height: 100vh; }
+.main h4{color: lightseagreen;font-weight: 500; font-size: 30px; text-align: center;}
+.main h1{color: #333; font-size: 2rem; font-weight: 700; text-align: center;}
+
+.convert{display: flex;}
+.div1{width: 33%; border: 2px solid green; justify-content: space-between;  margin-left: 10px;}
+.div1 img{width: 20%; height: 70px;border-radius: 50%;align-items: center;  border: 2px solid green;}
+
+
